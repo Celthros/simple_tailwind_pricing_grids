@@ -1,0 +1,20 @@
+{
+  "name": "simple-tailwind-pricing-grid",
+  "version": "1.0.0",
+  "description": "This is a simple pricing grid using Tailwindcss. It is a responsive grid that can be used for a pricing page on a website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "CSS",
+    "new environment"
+  ],
+  "author": "Tyler Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
