@@ -603,6 +603,11 @@ h3 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.popular {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+}
+
 .package-top {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -652,10 +657,6 @@ h3 {
   margin-left: 0.25rem;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .flex {
   display: flex;
 }
@@ -689,10 +690,6 @@ h3 {
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-sm {

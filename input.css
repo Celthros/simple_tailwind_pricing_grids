@@ -24,6 +24,10 @@
         @apply bg-slate-700 rounded-xl text-white text-center;
     }
 
+    .popular{
+        @apply bg-violet-600;
+    }
+
     .package-top{
         @apply p-8 mx-3 mt-3 rounded-t-xl bg-slate-800;
     }
